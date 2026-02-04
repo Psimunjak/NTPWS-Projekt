@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6; 
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+	color: #fff;
+}
+
+h4 {
+	margin: 20;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 10;
+	color: white;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+.main-nav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 880px) {
+	.main-nav ul {
+		flex-direction: column;
+	}
+	
+	.pizza {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.pizza img {
+		width: 100%;
+		max-width: 300px;
+	}
+	
+	.pizzaimg img {
+		width: 100%;
+		max-width: 100px;
+	}
+}
+
+.site-header {
+    background-color: #e5533d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+	font-family: 'Great Vibes', cursive;
+	font-size: 72px;
+}
+
+.article {
+	
+}
+
+figure {
+	border: 2px, solid, #333;
+	padding: 5px;
+	width: 100%;
+	display: block;
+	max-width: 800px;
+	height: auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+	max-width: 800px;
+}
+
+main {
+    background-color: #fff;
+    padding: 30px;
+    margin: 100px;
+}
+
+main h2 {
+    color: #000;
+}
+
+main p {
+    color: #000;
+    line-height: 1.6;
+}
+
+.pizza {
+	display: flex;
+	gap: 1.5rem;
+	align-items: flex-start;
+	padding: 1rem 0;
+}
+
+.pizza img {
+	width: 160px;
+	height: auto;
+	border-radius: 6px;
+}
+
+.pizzaimg {
+	display: flex;
+	align-items: flex-start;
+}
+
+.pizzaimg img {
+	width: 360px;
+	height: auto;
+	border-radius: 6px;
+}
+
+form input,
+form select {
+	width: 100%;
+	max-width: 400px;
+	padding: 0.6rem 0.75rem;
+	font-size: 1rem;
+	margin-top: 0.25rem;
+}
+
+form label {
+	font-weight: bold;
+}
+
+video {
+	max-width: 720px;
+}
+
+button {
+	margin-top: 1rem;
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: #f77f00;
+	color: #ffffff;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+button:hover {
+	background-color: #d66b00; /* darker orange */
+	transform: scale(1.05);
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
